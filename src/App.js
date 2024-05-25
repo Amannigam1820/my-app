@@ -80,6 +80,7 @@ function App() {
           body: JSON.stringify(formData),
         }
       );
+      console.log(response);
       if (response.ok === false) {
         toast.error("Something went wrong");
       } else {
